@@ -33,16 +33,15 @@ def _scrape_adventar():
     """ ADVENTERから
         参加登録中のカレンダーのタイトルと年月日を取得して返す関数
     """
-    html = urllib.request.urlopen(ADVENTAR_URL).read()
+    html = urllib.request.urlopen(ADVENTAR_URL).read().decode('utf-8')
     soup = BeautifulSoup(html)
-
     # デザイン変更で動かなくなる可能性がある
     registrations = []
     for data in soup.find_all("span"):
         date = data.parent.find("span").string[:10]  # '2016-12-05（月）'から曜日を削る
         title = data.parent.find("a").string
         registrations.append({"title": title, "date": date})
-
+        
     return registrations
 
 
@@ -55,7 +54,7 @@ def _scrape_qiita_advent_calendar():
     for category in QIITA_CATEGORIES:
         html = urllib.request.urlopen(
             "http://qiita.com/advent-calendar/{}/categories/{}".format(YEAR, category)
-        ).read()
+        ).read().decode('utf-8')
         soup = BeautifulSoup(html)
 
         target_xml = soup.select("[class~=adventCalendarList_calendarTitle]")
