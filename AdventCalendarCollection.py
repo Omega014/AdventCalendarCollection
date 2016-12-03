@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime
 
 import ui
 
@@ -9,7 +10,7 @@ import scraper
 class AdventCalendarCollection (object):
     def __init__(self):
         self.view = ui.load_view('AdventCalendarCollection')
-        self.view.background_color = "#fcfcfc"
+        self.view.background_color = "#ffedd9"
         self.view.present('fullscreen')
         self.view.name = 'AdventCalendarCollection'
         self.reload_data(None)
@@ -19,6 +20,10 @@ class AdventCalendarCollection (object):
         self.reload_data(None)
 
     def reload_data(self, sender):
+        
+        today = str(datetime.now().day)
+        self.view['textview'+today].background_color = '#ffd9d9'
+        
         filepath = os.path.join(os.path.realpath('./'), 'registrations.json')
         with open(filepath, 'r') as f:
             registrations = json.load(f)
@@ -29,7 +34,6 @@ class AdventCalendarCollection (object):
                 day = day[1]
             title = data['title']
             self.view['textview'+day].text = title
-            
-                     
-        
+
+
 AdventCalendarCollection()
