@@ -1,1 +1,4 @@
 # AdventCalendarCollection
+
+
+自分が参加しているアドベントカレンダーをQiitaとAdventarから取得して自作カレンダーにまとめて表示するだけのアプリ
