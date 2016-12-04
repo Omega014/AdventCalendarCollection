@@ -140,7 +140,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(0.929412,0.929412,0.929412,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -152,10 +152,10 @@
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "corner_radius" : 0,
           "border_width" : 1,
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "name" : "",
           "spellchecking_type" : "default",
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{63, 97}, {127, 158}}",
         "selected" : false,
@@ -189,7 +189,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "spellchecking_type" : "default",
           "background_color" : "RGBA(0.929412,0.929412,0.929412,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -204,7 +204,7 @@
           "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "name" : "",
-          "spellchecking_type" : "default"
+          "class" : "TextView"
         },
         "frame" : "{{189, 97}, {128, 158}}",
         "selected" : false,
@@ -215,7 +215,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "name" : "",
+          "class" : "TextView",
           "background_color" : "RGBA(0.929412,0.929412,0.929412,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -225,12 +225,12 @@
           "flex" : "WH",
           "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "name" : "",
           "spellchecking_type" : "default",
           "corner_radius" : 0,
           "border_width" : 1,
           "editable" : false,
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
-          "class" : "TextView"
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256"
         },
         "frame" : "{{316, 97}, {128, 158}}",
         "selected" : false,
@@ -241,7 +241,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "name" : "textview1",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -251,12 +251,12 @@
           "flex" : "WH",
           "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "name" : "textview1",
           "spellchecking_type" : "default",
           "corner_radius" : 0,
           "border_width" : 1,
           "editable" : false,
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
-          "class" : "TextView"
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256"
         },
         "frame" : "{{443, 97}, {127, 158}}",
         "selected" : false,
@@ -267,7 +267,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "name" : "textview2",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -278,12 +278,12 @@
           "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text_color" : "RGBA(0.122642,0.122642,0.122642,1.000000)",
+          "name" : "textview2",
           "spellchecking_type" : "default",
           "corner_radius" : 0,
           "border_width" : 1,
           "editable" : false,
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
-          "class" : "TextView"
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256"
         },
         "frame" : "{{568, 97}, {128, 158}}",
         "selected" : false,
@@ -294,7 +294,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "name" : "textview3",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -305,12 +305,12 @@
           "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text_color" : "RGBA(0.280660,0.280660,0.280660,1.000000)",
+          "name" : "textview3",
           "spellchecking_type" : "default",
           "corner_radius" : 0,
           "border_width" : 1,
           "editable" : false,
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
-          "class" : "TextView"
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256"
         },
         "frame" : "{{694, 97}, {128, 158}}",
         "selected" : false,
@@ -321,7 +321,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "name" : "textview4",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -332,12 +332,12 @@
           "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text_color" : "RGBA(0.016509,0.016509,0.016509,1.000000)",
+          "name" : "textview4",
           "spellchecking_type" : "default",
           "corner_radius" : 0,
           "border_width" : 1,
           "editable" : false,
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
-          "class" : "TextView"
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256"
         },
         "frame" : "{{820, 97}, {128, 158}}",
         "selected" : false,
@@ -650,7 +650,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "spellchecking_type" : "default",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -665,7 +665,7 @@
           "editable" : true,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "name" : "",
-          "spellchecking_type" : "default"
+          "class" : "TextView"
         },
         "frame" : "{{63, 213.5}, {127, 158}}",
         "selected" : false,
@@ -676,7 +676,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "name" : "",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -686,12 +686,12 @@
           "flex" : "WH",
           "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "name" : "",
           "spellchecking_type" : "default",
           "corner_radius" : 0,
           "border_width" : 1,
           "editable" : true,
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
-          "class" : "TextView"
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256"
         },
         "frame" : "{{189.00006, 213.5}, {128, 158}}",
         "selected" : false,
@@ -702,7 +702,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "editable" : true,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -717,7 +717,7 @@
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : true
+          "class" : "TextView"
         },
         "frame" : "{{316, 213.5}, {128, 158}}",
         "selected" : false,
@@ -728,7 +728,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "editable" : true,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -743,7 +743,7 @@
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : true
+          "class" : "TextView"
         },
         "frame" : "{{443, 213.5}, {127, 158}}",
         "selected" : false,
@@ -754,7 +754,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "editable" : true,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -769,7 +769,7 @@
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : true
+          "class" : "TextView"
         },
         "frame" : "{{568, 213.5}, {128, 158}}",
         "selected" : false,
@@ -780,7 +780,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "editable" : true,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -795,7 +795,7 @@
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : true
+          "class" : "TextView"
         },
         "frame" : "{{694, 213.5}, {128, 158}}",
         "selected" : false,
@@ -806,7 +806,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "editable" : true,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -821,7 +821,7 @@
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : true
+          "class" : "TextView"
         },
         "frame" : "{{820, 213.5}, {128, 158}}",
         "selected" : false,
@@ -832,7 +832,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "spellchecking_type" : "default",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -848,7 +848,7 @@
           "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "name" : "textview5",
-          "spellchecking_type" : "default"
+          "class" : "TextView"
         },
         "frame" : "{{63, 213}, {127, 158}}",
         "selected" : false,
@@ -882,7 +882,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "name" : "textview6",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -893,12 +893,12 @@
           "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text_color" : "RGBA(0.181604,0.181604,0.181604,1.000000)",
+          "name" : "textview6",
           "spellchecking_type" : "default",
           "corner_radius" : 0,
           "border_width" : 1,
           "editable" : false,
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
-          "class" : "TextView"
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256"
         },
         "frame" : "{{189, 213}, {128, 158}}",
         "selected" : false,
@@ -909,7 +909,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "editable" : false,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -924,7 +924,7 @@
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false
+          "class" : "TextView"
         },
         "frame" : "{{316, 213}, {128, 158}}",
         "selected" : false,
@@ -935,7 +935,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "editable" : false,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -951,7 +951,7 @@
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false
+          "class" : "TextView"
         },
         "frame" : "{{443, 213}, {127, 158}}",
         "selected" : false,
@@ -962,7 +962,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "editable" : false,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -978,7 +978,7 @@
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false
+          "class" : "TextView"
         },
         "frame" : "{{568, 213}, {128, 158}}",
         "selected" : false,
@@ -989,7 +989,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "editable" : false,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1005,7 +1005,7 @@
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false
+          "class" : "TextView"
         },
         "frame" : "{{694, 213}, {128, 158}}",
         "selected" : false,
@@ -1016,7 +1016,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "editable" : false,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1032,7 +1032,7 @@
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false
+          "class" : "TextView"
         },
         "frame" : "{{820, 213}, {128, 158}}",
         "selected" : false,
@@ -1181,7 +1181,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "editable" : false,
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1194,10 +1194,10 @@
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "corner_radius" : 0,
           "border_width" : 1,
+          "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "name" : "textview12",
-          "spellchecking_type" : "default",
-          "class" : "TextView"
+          "spellchecking_type" : "default"
         },
         "frame" : "{{63, 330}, {127, 158}}",
         "selected" : false,
@@ -1232,7 +1232,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "name" : "textview13",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1248,7 +1248,7 @@
           "border_width" : 1,
           "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
-          "name" : "textview13"
+          "class" : "TextView"
         },
         "frame" : "{{189, 330}, {128, 158}}",
         "selected" : false,
@@ -1259,7 +1259,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1272,10 +1272,10 @@
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "name" : "textview14",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{316, 330}, {128, 158}}",
         "selected" : false,
@@ -1286,7 +1286,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1299,10 +1299,10 @@
           "text_color" : "RGBA(0.113208,0.113208,0.113208,1.000000)",
           "name" : "textview15",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{443, 330}, {127, 158}}",
         "selected" : false,
@@ -1313,7 +1313,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1326,10 +1326,10 @@
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "name" : "textview16",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{568, 330}, {128, 158}}",
         "selected" : false,
@@ -1340,7 +1340,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1353,10 +1353,10 @@
           "text_color" : "RGBA(0.273585,0.273585,0.273585,1.000000)",
           "name" : "textview17",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{694, 330}, {128, 158}}",
         "selected" : false,
@@ -1367,7 +1367,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -1380,10 +1380,10 @@
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "name" : "textview18",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{820, 330}, {128, 158}}",
         "selected" : false,
@@ -1532,7 +1532,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "editable" : false,
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1545,10 +1545,10 @@
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "corner_radius" : 0,
           "border_width" : 1,
+          "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "name" : "textview19",
-          "spellchecking_type" : "default",
-          "class" : "TextView"
+          "spellchecking_type" : "default"
         },
         "frame" : "{{63, 447}, {127, 158}}",
         "selected" : false,
@@ -1582,7 +1582,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "name" : "textview20",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1598,7 +1598,7 @@
           "border_width" : 1,
           "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
-          "name" : "textview20"
+          "class" : "TextView"
         },
         "frame" : "{{189, 447}, {128, 158}}",
         "selected" : false,
@@ -1609,7 +1609,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1622,10 +1622,10 @@
           "text_color" : "RGBA(0.080189,0.080189,0.080189,1.000000)",
           "name" : "textview21",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{316, 447}, {128, 158}}",
         "selected" : false,
@@ -1636,7 +1636,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1649,10 +1649,10 @@
           "text_color" : "RGBA(0.188679,0.188679,0.188679,1.000000)",
           "name" : "textview22",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{443, 447}, {127, 158}}",
         "selected" : false,
@@ -1663,7 +1663,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1676,10 +1676,10 @@
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "name" : "textview23",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{568, 447}, {128, 158}}",
         "selected" : false,
@@ -1690,7 +1690,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1703,10 +1703,10 @@
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "name" : "textview24",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{694, 447}, {128, 158}}",
         "selected" : false,
@@ -1717,7 +1717,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1730,10 +1730,10 @@
           "text_color" : "RGBA(0.125000,0.125000,0.125000,1.000000)",
           "name" : "textview25",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{820, 447}, {128, 158}}",
         "selected" : false,
@@ -1866,7 +1866,7 @@
           "font_name" : "<System>",
           "frame" : "{{437, 368}, {150, 32}}",
           "tint_color" : "RGBA(0.084906,0.084906,0.084906,1.000000)",
-          "text" : "  1",
+          "text" : "  1\/1",
           "text_color" : "RGBA(0.682353,0.682353,0.682353,1.000000)",
           "name" : "label1",
           "corner_radius" : 0,
@@ -1875,7 +1875,7 @@
           "class" : "Label"
         },
         "frame" : "{{820, 540}, {128, 25}}",
-        "selected" : false,
+        "selected" : true,
         "nodes" : [
 
         ]
@@ -1883,7 +1883,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "name" : "textview26",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1899,7 +1899,7 @@
           "border_width" : 1,
           "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
-          "name" : "textview26"
+          "class" : "TextView"
         },
         "frame" : "{{63, 564}, {127, 158}}",
         "selected" : false,
@@ -1910,7 +1910,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
+          "class" : "TextView",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1923,10 +1923,10 @@
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "name" : "textview27",
           "spellchecking_type" : "default",
+          "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
           "border_width" : 1,
-          "editable" : false,
-          "class" : "TextView"
+          "editable" : false
         },
         "frame" : "{{189, 564}, {128, 158}}",
         "selected" : false,
@@ -1937,7 +1937,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "border_width" : 1,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1953,7 +1953,7 @@
           "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
-          "border_width" : 1
+          "class" : "TextView"
         },
         "frame" : "{{316, 564}, {128, 158}}",
         "selected" : false,
@@ -1964,7 +1964,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "border_width" : 1,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -1980,7 +1980,7 @@
           "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
-          "border_width" : 1
+          "class" : "TextView"
         },
         "frame" : "{{443, 564}, {127, 158}}",
         "selected" : false,
@@ -1991,7 +1991,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "border_width" : 1,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -2007,7 +2007,7 @@
           "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
-          "border_width" : 1
+          "class" : "TextView"
         },
         "frame" : "{{568, 564}, {128, 158}}",
         "selected" : false,
@@ -2018,7 +2018,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "border_width" : 1,
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -2034,7 +2034,7 @@
           "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
-          "border_width" : 1
+          "class" : "TextView"
         },
         "frame" : "{{694, 564}, {128, 158}}",
         "selected" : false,
@@ -2045,7 +2045,7 @@
       {
         "class" : "TextView",
         "attributes" : {
-          "class" : "TextView",
+          "border_width" : 1,
           "background_color" : "RGBA(0.929412,0.929412,0.929412,1.000000)",
           "alignment" : "right",
           "autocorrection_type" : "default",
@@ -2060,7 +2060,7 @@
           "editable" : false,
           "uuid" : "05795C05-8E36-46E5-A231-0ADA6FEF1256",
           "corner_radius" : 0,
-          "border_width" : 1
+          "class" : "TextView"
         },
         "frame" : "{{820, 564}, {128, 158}}",
         "selected" : false,
@@ -2087,7 +2087,7 @@
           "class" : "Button"
         },
         "frame" : "{{931, 18}, {80, 34}}",
-        "selected" : true,
+        "selected" : false,
         "nodes" : [
 
         ]

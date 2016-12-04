@@ -6,11 +6,10 @@ from bs4 import BeautifulSoup
 
 
 YEAR = "2016"
-
-ADVENTAR_URL = "http://www.adventar.org/users/7109?year=2016"
-
-QIITA_TARGET_USERS = ["OMEGA014"]  # TwitterとGithubとでどっちも登録しちゃった時用
-QIITA_URL = "http://qiita.com/advent-calendar/2016/my-calendar"
+# yearを付けなくても今年のページに飛ぶが、簡単に他の年のデータも取得できるようにYEARで管理する
+ADVENTAR_URL = "http://www.adventar.org/users/7109?year=[]".format(YEAR)
+# TwitterとGithubとでどっちも登録しちゃった時用の為にリストにしておく  
+QIITA_TARGET_USERS = ["OMEGA014"]
 QIITA_CATEGORIES = [
     "to_be_decided",
     "programming_languages",
@@ -30,12 +29,12 @@ QIITA_CATEGORIES = [
 
 
 def _scrape_adventar():
-    """ ADVENTERから
+    """ ADVENTARから
         参加登録中のカレンダーのタイトルと年月日を取得して返す関数
     """
     html = urllib.request.urlopen(ADVENTAR_URL).read().decode('utf-8')
     soup = BeautifulSoup(html)
-    # デザイン変更で動かなくなる可能性がある
+    # クラス名変更で動かなくなる可能性がある
     registrations = []
     for data in soup.find_all("span"):
         date = data.parent.find("span").string[:10]  # '2016-12-05（月）'から曜日を削る
@@ -57,6 +56,7 @@ def _scrape_qiita_advent_calendar():
         ).read().decode('utf-8')
         soup = BeautifulSoup(html)
 
+        # クラス名変更で動かなくなる可能性がある
         target_xml = soup.select("[class~=adventCalendarList_calendarTitle]")
         for target in target_xml:
             title = target.find_all("a")[-1].string
@@ -72,6 +72,7 @@ def _scrape_qiita_advent_calendar():
         title = soup.title.string
 
         # 特定のユーザ名がauthorの日付を探す
+        # クラス名変更で動かなくなる可能性がある
         target_xml = soup.select("[class~=adventCalendarCalendar_day]")
         for idx, target in enumerate(target_xml):
             # 参加登録されていない空き日は飛ばす
