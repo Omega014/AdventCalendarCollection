@@ -83,7 +83,7 @@ def _scrape_qiita_advent_calendar():
             if user_name in QIITA_TARGET_USERS:
                 date = "{}-12-{}".format(YEAR, idx+1)
                 registrations.append({"title": title, "date": date})
-        time.sleep(60)  # 1sだと短すぎるかな...
+        time.sleep(60)  # 1minだと短すぎるかな...
         
     return registrations
 
